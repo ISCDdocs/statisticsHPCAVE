@@ -35,6 +35,18 @@ Dans le dossier sont présents plusieurs scripts, lançant des commandes sur les
 L'utilisateur **root** doit pouvoir se connecter en ssh sans mot de passe vers les frontales, avec l'utilisateur spécifié. Il faut pour cela enregistrer les clés ssh de part et d'autre, et faire en sorte que la commande `ssh utilisateur@mesu.dsi.upmc.fr` ne requière pas le mot de passe.
 Ceci permettra d'envoyer les fichiers de manière régulière.
 
+### 2.3 - Test des scripts
+Pour s'assurer que les scripts fonctionnent et avant de les programmer grâce à crontab, il faut les tester en les lançant un par un (en tant que root):
+```
+sudo sh /home/icsadm/statisticsHPCAVE/getCurrentStatus.sh  /home/icsadm/statisticsHPCAVE/results norgeot
+sudo sh /home/icsadm/statisticsHPCAVE/getLastMonthUsage.sh /home/icsadm/statisticsHPCAVE/results norgeot
+sudo sh /home/icsadm/statisticsHPCAVE/getLastYearUsage.sh  /home/icsadm/statisticsHPCAVE/results norgeot
+sudo sh /home/icsadm/statisticsHPCAVE/getWeeklyUsage.sh    /home/icsadm/statisticsHPCAVE/results norgeot
+```
+Certaines de ces commandes prennent un peu de temps à s'éxécuter, il faudra donc s'armer de patience (quelques minutes au plus...).
+A noter que les arguments sont le dossier dans lequel écrire les résultats et le nom d'utilisateur sur MeSU.
+
+
 ### 2.3 - Configuration du crontab
 En tant que root (sudo su), il faut rajouter des règles permettant d'éxecuter les différents scripts à intervale régulier, en utilisant crontab.
 ```
@@ -42,10 +54,14 @@ crontab -e
 ```
 Puis rajouter les lignes suivantes à la crontab:
 ```
-*/15 * * * *  sh /home/icsadm/statisticsHPCAVE/getCurrentStatus.sh > /dev/null 
+*/15 * * * *  sh /home/icsadm/statisticsHPCAVE/getCurrentStatus.sh /home/ics > /dev/null 
 15 */6 * * *  sh /home/icsadm/statisticsHPCAVE/getLastMonthUsage.sh > /dev/null
 15 */24 * * * sh /home/icsadm/statisticsHPCAVE/getLastYearUsage.sh > /dev/null
 15 */24 * * * sh /home/icsadm/statisticsHPCAVE/getWeeklyUsage.sh > /dev/null
 ```
 
+### 2.4 - Liens symboliques
+
+Pour que les résultats des commandes précédentes soient visibles depuis le serveur web, il faut que les fichiers soient présents dans le répertoire **/var/www/html** (dossier public pour apache).
+Pour ce faire, il faut créer un dossier appelé "statisticsHPCAVE" dans le répertoire **/var/www/html**, et y créer les liens symboliques pointant vers les fichiers présents dans le répertoire:
 

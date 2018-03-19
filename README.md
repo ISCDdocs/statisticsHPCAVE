@@ -31,14 +31,21 @@ cd statisticsHPCAVE
 ```
 Dans le dossier sont présents plusieurs scripts, lançant des commandes sur les frontales de MeSU à partir de l'utilisateur présent dans les fichiers (qu'il faudra donc changer en accordance).
 
-### 2.2 - Configuration du crontab
+### 2.2 - Configuration de la connexion en ssh vers les frontales
+L'utilisateur **root** doit pouvoir se connecter en ssh sans mot de passe vers les frontales, avec l'utilisateur spécifié. Il faut pour cela enregistrer les clés ssh de part et d'autre, et faire en sorte que la commande `ssh utilisateur@mesu.dsi.upmc.fr` ne requière pas le mot de passe.
+Ceci permettra d'envoyer les fichiers de manière régulière.
+
+### 2.3 - Configuration du crontab
 En tant que root (sudo su), il faut rajouter des règles permettant d'éxecuter les différents scripts à intervale régulier, en utilisant crontab.
 ```
 crontab -e
 ```
 Puis rajouter les lignes suivantes à la crontab:
 ```
-*/15 * * * *  sh /home/icsadm/statisticsHPCAVE/run.sh > /dev/null 
-15 */6 * * *  sh /home/icsadm/statisticsHPCAVE/statsMonth.sh > /dev/null
-15 */24 * * * sh /home/icsadm/statisticsHPCAVE/statsYear.sh > /dev/null
+*/15 * * * *  sh /home/icsadm/statisticsHPCAVE/getCurrentStatus.sh > /dev/null 
+15 */6 * * *  sh /home/icsadm/statisticsHPCAVE/getLastMonthUsage.sh > /dev/null
+15 */24 * * * sh /home/icsadm/statisticsHPCAVE/getLastYearUsage.sh > /dev/null
+15 */24 * * * sh /home/icsadm/statisticsHPCAVE/getWeeklyUsage.sh > /dev/null
 ```
+
+

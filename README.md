@@ -29,3 +29,16 @@ cd /home/icsadm
 git clone https://github.com/ISCDdocs/statisticsHPCAVE.git --branch serveurWeb --single-branch
 cd statisticsHPCAVE
 ```
+Dans le dossier sont présents plusieurs scripts, lançant des commandes sur les frontales de MeSU à partir de l'utilisateur présent dans les fichiers (qu'il faudra donc changer en accordance).
+
+### 2.2 - Configuration du crontab
+En tant que root (sudo su), il faut rajouter des règles permettant d'éxecuter les différents scripts à intervale régulier, en utilisant crontab.
+```
+crontab -e
+```
+Puis rajouter les lignes suivantes à la crontab:
+```
+*/15 * * * *  sh /home/icsadm/statisticsHPCAVE/run.sh > /dev/null 
+15 */6 * * *  sh /home/icsadm/statisticsHPCAVE/statsMonth.sh > /dev/null
+15 */24 * * * sh /home/icsadm/statisticsHPCAVE/statsYear.sh > /dev/null
+```

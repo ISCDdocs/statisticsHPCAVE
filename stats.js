@@ -577,7 +577,7 @@ function status(){
       h=0;
       lines = text.split("\n");
       for(var i = 0 ; i < lines.length-1 ; i++){
-        h = h + parseInt( (lines[i].split("|"))[1] );
+        h = h + parseInt( (lines[i].split(","))[1] );
       }
       jQuery("#hoursYear").html(h.toString());
     }

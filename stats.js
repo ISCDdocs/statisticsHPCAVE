@@ -603,6 +603,7 @@ function status(){
   function ping3(text){ ping(text, 3) }
   function ping4(text){ ping(text, 4) }
   function ping5(text){ ping(text, 5) }
+  
   jQuery.ajax({type:"GET", url:"/usage/ping0.txt",success: ping0});
   jQuery.ajax({type:"GET", url:"/usage/ping1.txt",success: ping1});
   jQuery.ajax({type:"GET", url:"/usage/ping2.txt",success: ping2});
@@ -610,6 +611,9 @@ function status(){
   jQuery.ajax({type:"GET", url:"/usage/ping4.txt",success: ping4});
   jQuery.ajax({type:"GET", url:"/usage/ping5.txt",success: ping5});
 
+    //Display the uptime
+    function uptime(text){jQuery("#uptime").html(text);}
+    jQuery.ajax({type:"GET", url:"/statisticsHPCAVE/uptime.txt",success: uptime});
 }
 
 function intraDay(){

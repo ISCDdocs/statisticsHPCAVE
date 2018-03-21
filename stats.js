@@ -26,24 +26,32 @@ d3.select("select").on("change", function(event){
   after.selectAll("*").remove();
   d3.select("#pingStatus").style("display","none");
   d3.select("#changelog").style("display","none");
+  
   //Adapt the visualization to the selection
   if( selection == "status" ){
     d3.select("#pingStatus").style("display","block");
+    container.style("display", "none");  
     status();
   }
-  else if( selection == "history" ){
+    else if( selection == "history" ){
+	jQuery("#svg-container").show();
     history();
   }
-  else if( selection == "queues" ){
+    else if( selection == "queues" ){
+	jQuery("#svg-container").show();  
     visu_queues();
   }
-  else if(selection == "intraDay"){
+    else if(selection == "intraDay"){
+	jQuery("#svg-container").show();
     intraDay();
   }
-  else if(selection == "labAndUser"){
+    else if(selection == "labAndUser"){
+	jQuery("#svg-container").show();
+
     userRepartition();
   }
-  else if(selection == "changelog"){
+    else if(selection == "changelog"){
+	jQuery("#svg-container").hide();  
     d3.select("#changelog").style("display","block");
     changelog();
   }
@@ -241,6 +249,8 @@ function history(){
 }
 
 function visu_queues(){
+
+    
 
   //Define the svg element
   var svg = append_svg(container, 0, 0, totalWidth, totalHeight);
@@ -521,6 +531,8 @@ function userRepartition(){
 
 function status(){
 
+    jQuery("#svg-container").hide();
+    
   //Transform a usage percentage in a color for the badges
   function percentColor(percent){
     if(percent<10){return "red"}
@@ -551,7 +563,7 @@ function status(){
       }
     }
   }
-  jQuery.ajax({type:"GET", url:"/usage/log.txt", success: activate});
+  jQuery.ajax({type:"GET", url:"/statisticsHPCAVE/log.txt", success: activate});
 
   //Last month statistics
   function lastMonth(text){
@@ -561,35 +573,36 @@ function status(){
       jQuery("#nUsers").html(nUsers.toString());
       h=0;
       lines = text.split("\n");
-      for(var i = 1 ; i < lines.length-1 ; i++){
+      for(var i = 1 ; i < lines.length -1; i++){
         h = h + parseInt( (lines[i].split("|"))[1] );
       }
       jQuery("#hours").html(h.toString());
     }
   }
-  jQuery.ajax({type:"GET", url:"/usage/lastMonth.txt",success: lastMonth});
+  jQuery.ajax({type:"GET", url:"/statisticsHPCAVE/lastMonth.txt",success: lastMonth});
 
   //Last year
   function lastYear(text){
     if(text.split("\n").length>2){
-      var nUsers = text.split("\n").length;
+      var nUsers = text.split("\n").length - 1;
       jQuery("#nUsersYear").html(nUsers.toString());
       h=0;
       lines = text.split("\n");
-      for(var i = 0 ; i < lines.length-1 ; i++){
-        h = h + parseInt( (lines[i].split(","))[1] );
+	for(var i = 1 ; i < lines.length -1 ; i++){
+	    console.log(lines[i].split("|"));
+        h = h + parseInt( (lines[i].split("|"))[1] );
       }
       jQuery("#hoursYear").html(h.toString());
     }
   }
-  jQuery.ajax({type:"GET", url:"/usage/lastYear.txt",success: lastYear});
+  jQuery.ajax({type:"GET", url:"/statisticsHPCAVE/lastYear.txt",success: lastYear});
 
   //Display the date
   function pingDate(text){
     var lines=text.split("\n");
     jQuery("#time1").html(lines[0]);
   }
-  jQuery.ajax({type:"GET", url:"/usage/pingDate.txt", success: pingDate});
+  jQuery.ajax({type:"GET", url:"/statisticsHPCAVE/pingDate.txt", success: pingDate});
 
   //The pings
   function ping(text, id){
@@ -603,17 +616,17 @@ function status(){
   function ping3(text){ ping(text, 3) }
   function ping4(text){ ping(text, 4) }
   function ping5(text){ ping(text, 5) }
-  
-  jQuery.ajax({type:"GET", url:"/usage/ping0.txt",success: ping0});
-  jQuery.ajax({type:"GET", url:"/usage/ping1.txt",success: ping1});
-  jQuery.ajax({type:"GET", url:"/usage/ping2.txt",success: ping2});
-  jQuery.ajax({type:"GET", url:"/usage/ping3.txt",success: ping3});
-  jQuery.ajax({type:"GET", url:"/usage/ping4.txt",success: ping4});
-  jQuery.ajax({type:"GET", url:"/usage/ping5.txt",success: ping5});
-
-    //Display the uptime
-    function uptime(text){jQuery("#uptime").html(text);}
-    jQuery.ajax({type:"GET", url:"/statisticsHPCAVE/uptime.txt",success: uptime});
+  jQuery.ajax({type:"GET", url:"/statisticsHPCAVE/ping0.txt",success: ping0});
+  jQuery.ajax({type:"GET", url:"/statisticsHPCAVE/ping1.txt",success: ping1});
+  jQuery.ajax({type:"GET", url:"/statisticsHPCAVE/ping2.txt",success: ping2});
+  jQuery.ajax({type:"GET", url:"/statisticsHPCAVE/ping3.txt",success: ping3});
+  jQuery.ajax({type:"GET", url:"/statisticsHPCAVE/ping4.txt",success: ping4});
+  jQuery.ajax({type:"GET", url:"/statisticsHPCAVE/ping5.txt",success: ping5});
+    
+  //Display the uptime
+  function uptime(text){jQuery("#uptime").html(text);}
+  jQuery.ajax({type:"GET", url:"/statisticsHPCAVE/uptime.txt",success: uptime});
+    
 }
 
 function intraDay(){

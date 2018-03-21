@@ -82,12 +82,12 @@ if __name__ == "__main__":
 
     for j in jobs:
         if j.server == "alpha" and j.state=="R":
-            #j.printJob()
             a+=j.ncpus
         if j.server == "beta" and j.state == "R":
-            #j.printJob()
-            #on prend en compte les cas avec la queue 1032
-            if j.nodes == j.ncpus:
+            #on prend en compte les cas avec la queue 1032 et f1c
+            if "f1c" in j.queue:
+                b+=1
+            elif j.nodes == j.ncpus:
                 b+=j.ncpus
             else:
                 b+=max(j.ncpus, j.nodes*24)

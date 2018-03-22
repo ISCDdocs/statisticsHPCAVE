@@ -16,7 +16,10 @@ var before    = d3.select("#svg-before")
 var after     = d3.select("#svg-after");
 
 //By default, show the status
-status();
+jQuery("#svg-container").hide();
+d3.select("#changelog").style("display","block");
+d3.select("#pingStatus").style("display","none");
+changelog();
 
 //Display the selected visualization depending on the result of the select elt
 d3.select("select").on("change", function(event){
@@ -624,7 +627,12 @@ function status(){
   jQuery.ajax({type:"GET", url:"/statisticsHPCAVE/ping5.txt",success: ping5});
     
   //Display the uptime
-  function uptime(text){jQuery("#uptime").html(text);}
+    function uptime(text){
+	jQuery("#uptime").html(
+	    "<b>"+ text.split("\n")[0] + "</b>: "
+		+ text.split("up ")[1].split(",")[0] + " h."
+	);
+    }
   jQuery.ajax({type:"GET", url:"/statisticsHPCAVE/uptime.txt",success: uptime});
     
 }

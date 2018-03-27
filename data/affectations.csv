@@ -1,0 +1,319 @@
+umrID,umrName,ID,name
+8806,Centre De Formation D'Apprentis,1,Communications Centre De Formation D'Apprentis
+8808,Associations,1,Association Graine de Chimiste
+8811,Fondations,1,Fondation UPMC
+8806,Centre De Formation D'Apprentis,2,Relations Entreprises / Centre de formation d'apprentis
+8808,Associations,2,Orchestre Symphonique interUniversitaire de Paris
+8808,Associations,3,Association Comité Loisirs Informations Culture (CLIC)
+8808,Associations,4,Association Sportive de l'UPMC
+8808,Associations,5,Comité Local d'Action Sociale
+8808,Associations,6,Associations des Amis du Patrimoine Géologique de l’UPMC
+8808,Associations,7,Association BrailleNet
+8808,Associations,8,Cursus de Master en Ingénierie
+8808,Associations,9,EIT Health
+SG,Directions Et Services Centraux,107,Direction Generale De La Recherche Et Du Transfert De Technologie
+SG,Directions Et Services Centraux,110,Direction Generale De La Formation Et De L'Insertion Professionnelle
+SG,Directions Et Services Centraux,114,Direction Des Relations Internationales
+SG,Directions Et Services Centraux,121,Direction De La Culture
+SG,Directions Et Services Centraux,124,Direction De L'Evaluation Et De L'Aide Au Pilotage
+SG,Directions Et Services Centraux,125,Direction Des Ressources Humaines
+SG,Directions Et Services Centraux,126,Direction Des Systemes D'Information
+SG,Directions Et Services Centraux,127,Direction Du Budget Et Des Finances
+SG,Directions Et Services Centraux,133,Direction De La Vie Etudiante
+SG,Directions Et Services Centraux,137,Direction Du Patrimoine Immobilier
+SG,Directions Et Services Centraux,138,Direction De La Logistique Et Des Campus
+SG,Directions Et Services Centraux,141,Gestion Des Installations Sportives
+SG,Directions Et Services Centraux,142,Agence Comptable
+SG,Directions Et Services Centraux,144,Direction Des Achats
+907,Institut De Formation Doctorale,150,Ed 386 Sciences Mathematiques Paris Centre
+907,Institut De Formation Doctorale,151,Ed 130 Informatique Telecommunication Et Electronique De Paris
+907,Institut De Formation Doctorale,153,Ed 389 Physique De La Particule A La Matiere Condensee
+907,Institut De Formation Doctorale,155,Ed 391 Sciences Mecaniques Acoustique Electronique Et Robotique De Paris
+907,Institut De Formation Doctorale,157,Ed 129 Sciences De L'Environnement D'Ile De France
+907,Institut De Formation Doctorale,158,Ed 398 Geosciences - Ressources Naturelles Et Environnement
+907,Institut De Formation Doctorale,159,Ed 388 Chimie Physique Et Chimie Analytique De Paris Centre
+907,Institut De Formation Doctorale,160,Ed 397 Physique Et Chimie Des Materiaux
+907,Institut De Formation Doctorale,161,Ed 406 Chimie Moleculaire De Paris Centre
+907,Institut De Formation Doctorale,162,Ed 158 Cerveau Cognition Et Comportement
+907,Institut De Formation Doctorale,163,Ed 515 Complexite Du Vivant
+907,Institut De Formation Doctorale,164,Ed 387 Interdisciplinaire Pour Le Vivant
+907,Institut De Formation Doctorale,166,Ed 393 Sante Publique Epidemiologie Et Sciences De L'Information Biomedicale
+907,Institut De Formation Doctorale,167,Ed 394 Physiologie - Physiopathologie Et Therapeuthique
+907,Institut De Formation Doctorale,168,Ed 127 Astronomie Et Astrophysique
+907,Institut De Formation Doctorale,172,Ed 109 Stepu
+907,Institut De Formation Doctorale,173,Ed 227 Sciences De La Nature Et De L' Homme : Evolution Et Ecologie
+907,Institut De Formation Doctorale,174,Ed 564 Physique En Ile De France
+907,Institut De Formation Doctorale,175,Ed 560 Sciences De La Terre De L' Environnement Et Physique De L'Unviers - Paris
+SG,Directions Et Services Centraux,180,Direction Des Ressources Partenariales
+929,Ufr Faculte De Mathematiques,199,Institut De Statistique De L'Universite De Paris
+3,Service General De Formation Initiale,303,Departement Des Activites Physiques Et Sportives
+3,Service General De Formation Initiale,305,Administration Du Service General De La Formation Initial
+918,Ufr Faculte Terre - Environnement - Biodiversite,317,Centre Des Sciences De La Mer
+3,Service General De Formation Initiale,318,Departement Des Langues
+MIT,Service General Tice,319,Departement Des Formations Ouvertes Et A Distance
+3,Service General De Formation Initiale,320,Cellule D'Accompagnement Et De Formation A L'Insertion Professionnelle
+MIT,Service General Tice,321,Tice-Med
+3,Service General De Formation Initiale,340,Er 11 Didactique Des Langues Et Des Cultures
+904,Bibliotheque Universitaire Pierre Et Marie Curie,403,Saint-Antoine Section
+904,Bibliotheque Universitaire Pierre Et Marie Curie,405,Bibliotheque De L'Ufr De La Pitie-Salpetriere Section
+904,Bibliotheque Universitaire Pierre Et Marie Curie,407,Bibliotheque De Stomatologie Michel Dechaume
+904,Bibliotheque Universitaire Pierre Et Marie Curie,410,Service D'Informatique Documentaire
+904,Bibliotheque Universitaire Pierre Et Marie Curie,411,Bibliotheque Numerique
+904,Bibliotheque Universitaire Pierre Et Marie Curie,424,Bibliotheque Biologie Chimie Physique Recherche
+904,Bibliotheque Universitaire Pierre Et Marie Curie,425,Bibliotheque De Banyuls
+904,Bibliotheque Universitaire Pierre Et Marie Curie,426,Bibliotheque Des Licences
+904,Bibliotheque Universitaire Pierre Et Marie Curie,427,Bibliotheque De L1
+904,Bibliotheque Universitaire Pierre Et Marie Curie,428,Bibliotheque De L'Atrium
+905,Centre De Recherches Biomedicales Des Cordeliers,598,Hors Labos 905
+905,Centre De Recherches Biomedicales Des Cordeliers,599,Structures Reconnues Exterieures 905
+907,Institut De Formation Doctorale,701,Administration De L'Institut De Formation Doctorale
+907,Institut De Formation Doctorale,702,Departement Formation Et Carrieres
+918,Ufr Faculte Terre - Environnement - Biodiversite,1801,Administration De L'Ufr 918
+918,Ufr Faculte Terre - Environnement - Biodiversite,1854,Umr 7205 Institut De Systematique - Evolution - Biodiversite
+918,Ufr Faculte Terre - Environnement - Biodiversite,1855,Umr 7618 - Umrd 211 - Umra 1392 - Um 113 Institut D'Ecologie Et Des Sciences De L'Environnement De Paris
+918,Ufr Faculte Terre - Environnement - Biodiversite,1856,Umr 7619 Milieux Environnementaux - Transferts Et Interactions Dans Les Hydrosystemes Et Les Sols
+918,Ufr Faculte Terre - Environnement - Biodiversite,1898,Hors Labos 918
+918,Ufr Faculte Terre - Environnement - Biodiversite,1899,Structures Reconnues Exterieures 918
+919,Ufr Faculte Ingenierie,1901,Administration De L'Ufr 919
+925,Ufr Faculte De Physique,1907,Umr 7587 Institut Langevin Ondes Et Images
+919,Ufr Faculte Ingenierie,1908,Ums 2809 Usages En Technologies De L'Information Numerique
+919,Ufr Faculte Ingenierie,1910,Fr 2609 Federation Francilienne En Mecanique Des Materiaux
+919,Ufr Faculte Ingenierie,1911,Umr 9912 Sciences Et Technologies De La Musique Et Du Son
+919,Ufr Faculte Ingenierie,1929,Fed 3 Upmc Institut Du Calcul Et De La Simulation
+919,Ufr Faculte Ingenierie,1930,Umi 2955 Image And Pervasive Access Lab
+919,Ufr Faculte Ingenierie,1931,Umrs 1146 - Umr 7371 - Um 117 Laboratoire D'Imagerie Biomedicale
+919,Ufr Faculte Ingenierie,1932,Ums 3665 Institut Des Sciences De La Communication Du Cnrs
+919,Ufr Faculte Ingenierie,1933,Umrs 1142 Informatique Medicale Et Ingenierie Des Connaissances Pour La Sante
+919,Ufr Faculte Ingenierie,1998,Hors Labos 919
+919,Ufr Faculte Ingenierie,1999,Structures Reconnues Exterieures 919
+929,Ufr Faculte De Mathematiques,2101,Administration De L'Ufr 929
+929,Ufr Faculte De Mathematiques,2102,Fr 2830 Mathematiques De Paris Centre
+929,Ufr Faculte De Mathematiques,2105,Umr 7598 Laboratoire Jacques-Louis Lions
+929,Ufr Faculte De Mathematiques,2106,Umr 7599 Probabilites Et Modeles Aleatoires
+929,Ufr Faculte De Mathematiques,2107,Umr 7586 Institut De Mathematiques De Jussieu
+919,Ufr Faculte Ingenierie,2203,Umr 7606 Laboratoire D'Informatique De Paris 6 (Lip6)
+919,Ufr Faculte Ingenierie,2305,Umr 7222 Institut Des Systemes Intelligents Et Robotique
+925,Ufr Faculte De Physique,2313,Umr 7636 Physique Et Mecanique Des Milieux Heterogenes
+919,Ufr Faculte Ingenierie,2320,Umr 7190 Institut Jean Le Rond D'Alembert
+918,Ufr Faculte Terre - Environnement - Biodiversite,2410,Umr 8190 Atmospheres Milieux Et Observations Spatiales
+934,Institut D'Astrophysique De Paris,2411,Umr 7095 Institut D'Astrophysique De Paris
+918,Ufr Faculte Terre - Environnement - Biodiversite,2412,Umr 8539 Meteorologie Dynamique
+918,Ufr Faculte Terre - Environnement - Biodiversite,2413,Umr 7159 - Umrd 182 - Um 71 Laboratoire D'Oceanographie Et Du Climat : Experimentations Et Approches Numeriques
+925,Ufr Faculte De Physique,2415,Umr 8112 Etude Du Rayonnement Et De La Matiere En Astrophysique Et Atmosphere
+925,Ufr Faculte De Physique,2416,Umr 8109 Etudes Spatiales Et Instrumentation En Astrophysique
+919,Ufr Faculte Ingenierie,2420,Umr 8507 Genie Electrique Et Electronique De Paris
+919,Ufr Faculte Ingenierie,2421,Ur 2 Upmc Electronique Et Electromagnetisme
+926,Ufr Faculte De Chimie,2422,Umr 8235 Interfaces Et Systemes Electrochimiques
+925,Ufr Faculte De Physique,2424,Umr 7605 Utilisation Des Lasers Intenses
+918,Ufr Faculte Terre - Environnement - Biodiversite,2426,Fr 636 Institut Pierre Simon Laplace
+925,Ufr Faculte De Physique,2428,Umr 8028 Institut De Mecanique Celeste Et De Calcul Des Ephemerides
+925,Ufr Faculte De Physique,2429,Umr 8630 Systeme De Reference Temps-Espace
+925,Ufr Faculte De Physique,2501,Administration De L'Ufr 925
+925,Ufr Faculte De Physique,2502,Umr 8213 Physique Et Etude Des Materiaux
+925,Ufr Faculte De Physique,2505,Umr 7590 - Umrd 206 - Um 120 Institut De Mineralogie - De Physique Des Materiaux Et De Cosmochimie
+925,Ufr Faculte De Physique,2513,Umr 8551 Laboratoire Pierre Aigrain
+925,Ufr Faculte De Physique,2516,Umr 7585 Physique Nucleaire Et Hautes Energies
+925,Ufr Faculte De Physique,2517,Umr 8550 Physique Statistique De L'Ens
+925,Ufr Faculte De Physique,2518,Umr 7600 Physique Theorique De La Matiere Condensee
+925,Ufr Faculte De Physique,2520,Umr 7589 Physique Theorique Et Hautes Energies
+925,Ufr Faculte De Physique,2523,Umr 8552 Laboratoire Kastler-Brossel
+925,Ufr Faculte De Physique,2525,Umr 7588 Institut Des Nanosciences De Paris
+925,Ufr Faculte De Physique,2526,Umr 8549 Physique Theorique De L'Ens
+925,Ufr Faculte De Physique,2527,Umr 168 Physico-Chimie Curie
+925,Ufr Faculte De Physique,2529,Fr 2687 Federation De Recherche Interactions Fondamentales
+925,Ufr Faculte De Physique,2537,Umr 7648 Physique Des Plasmas
+925,Ufr Faculte De Physique,2538,Umr 8237 Laboratoire Jean Perrin
+925,Ufr Faculte De Physique,2541,Umr 125 Surface Du Verre Et Interfaces
+925,Ufr Faculte De Physique,2598,Hors Labos 925
+925,Ufr Faculte De Physique,2599,Structures Reconnues Exterieures 925
+926,Ufr Faculte De Chimie,2601,Administration De L'Ufr 926
+926,Ufr Faculte De Chimie,2604,Umr 7615 Sciences Et Ingenierie De La Matiere Molle
+926,Ufr Faculte De Chimie,2606,Umr 7574 Chimie De La Matiere Condensee De Paris
+926,Ufr Faculte De Chimie,2607,Umr 8232 Institut Parisien De Chimie Moleculaire
+926,Ufr Faculte De Chimie,2608,Umr 7203 Laboratoire Des Biomolecules
+926,Ufr Faculte De Chimie,2609,Umr 7616 Chimie Theorique
+926,Ufr Faculte De Chimie,2610,Umr 7614 Chimie Physique - Matiere Et Rayonnement
+926,Ufr Faculte De Chimie,2614,Umr 8234 Physicochimie Des Electrolytes Et Nanosystemes Interfaciaux
+926,Ufr Faculte De Chimie,2615,Umr 7197 Reactivite De Surface
+926,Ufr Faculte De Chimie,2621,Umr 8640 Processus D'Activation Selective Par Transfert D'Energie Uni-Electronique Ou Radiatif
+926,Ufr Faculte De Chimie,2624,Fr 2482 Institut Des Materiaux De Paris Centre
+926,Ufr Faculte De Chimie,2625,Fr 2622 Institut Parisien De Chimie Physique Et Theorique
+926,Ufr Faculte De Chimie,2626,Fr 2769 Chimie Moleculaire De Paris Centre : Organique - Inorganique Et Biologique
+926,Ufr Faculte De Chimie,2632,Umr 8220 Archeologie Moleculaire Et Structurale
+926,Ufr Faculte De Chimie,2634,Umr 8229 Chimie Des Processus Biologiques
+926,Ufr Faculte De Chimie,2635,Umr 8233 De La Molecule Aux Nanos-Objets : Reactivite - Interactions - Spectroscopies
+926,Ufr Faculte De Chimie,2636,Fr 3459 Reseaux Sur Le Stockage Electrochimique De L'Energie
+926,Ufr Faculte De Chimie,2637,Fr 3615 Federation Physico-Chimie Analytique Et Biologique
+926,Ufr Faculte De Chimie,2638,Fre 3677 Chimie Du Solide Et De L'Energie
+926,Ufr Faculte De Chimie,2698,Hors Labos 926
+926,Ufr Faculte De Chimie,2699,Structures Reconnues Exterieures 926
+927,Ufr Faculte Sciences De La Vie,2701,Administration De L'Ufr 927
+927,Ufr Faculte Sciences De La Vie,2711,Umr 7622 Biologie Du Developpement Paris Seine
+927,Ufr Faculte Sciences De La Vie,2747,Umr 7141 Physiologie Membranaire Et Moleculaire Du Chloroplaste
+918,Ufr Faculte Terre - Environnement - Biodiversite,2753,Umr 7208 - Umrd 207 - Um 95 Biologie Des Organismes Et Ecosystemes Aquatiques
+918,Ufr Faculte Terre - Environnement - Biodiversite,2754,Umr 7204 Centre Des Sciences De La Conservation
+927,Ufr Faculte Sciences De La Vie,2755,Umr 3244 Dynamique De L'Information Genetique : Bases Fondamentales Et Cancer
+927,Ufr Faculte Sciences De La Vie,2758,Umr 3664 Dynamique Du Noyau
+927,Ufr Faculte Sciences De La Vie,2759,Umr 144 Compartimentation Et Dynamique Cellulaire
+927,Ufr Faculte Sciences De La Vie,2760,Umrs 839 Institut Du Fer A Moulin
+919,Ufr Faculte Ingenierie,2763,Umr 7238 Biologie Computationnelle Et Quantitative
+927,Ufr Faculte Sciences De La Vie,2765,Umrs 934 - Umr 3215 - Um 79 Genetique Du Developpement Et Cancer
+927,Ufr Faculte Sciences De La Vie,2770,Umr 8226 Biologie Moleculaire Et Cellulaire Des Eucaryotes
+927,Ufr Faculte Sciences De La Vie,2775,Umr 8256 Biological Adaptation And Ageing
+927,Ufr Faculte Sciences De La Vie,2777,Umrs 1130 - Umr 8246 - Um 119 Neurosciences Paris Seine
+927,Ufr Faculte Sciences De La Vie,2778,Umr 7138 Evolution Paris Seine
+927,Ufr Faculte Sciences De La Vie,2779,Ur 6 Enzymologie De L'Arn
+927,Ufr Faculte Sciences De La Vie,2781,Fr 3631 Institut Biologie Paris Seine
+927,Ufr Faculte Sciences De La Vie,2782,Umrs 1138 Centre De Recherche Des Cordeliers
+927,Ufr Faculte Sciences De La Vie,2798,Hors Labos 927
+927,Ufr Faculte Sciences De La Vie,2799,Structures Reconnues Exterieures 927
+918,Ufr Faculte Terre - Environnement - Biodiversite,2803,Umr 7193 Institut Des Sciences De La Terre De Paris
+918,Ufr Faculte Terre - Environnement - Biodiversite,2821,Umr 7207 Centre De Recherche Sur La Paleobiodiversite Et Les Paleoenvironnements
+918,Ufr Faculte Terre - Environnement - Biodiversite,2823,Fr 3020 Federation Ile De France De Recherche Sur L'Environnement
+919,Ufr Faculte Ingenierie,2910,Umi 209 Unite De Modelisation Mathematique Et Informatique Des Systemes Complexes
+929,Ufr Faculte De Mathematiques,2998,Hors Labos 929
+929,Ufr Faculte De Mathematiques,2999,Structures Reconnues Exterieures 929
+933,Ecole Polytechnique Universitaire Pierre Et Marie Curie,3301,Administration De L'E.P.U.
+933,Ecole Polytechnique Universitaire Pierre Et Marie Curie,3305,Formations De L'E.P.U.
+934,Institut D'Astrophysique De Paris,3401,Administration De L'Institut D'Astrophysique De Paris
+929,Ufr Faculte De Mathematiques,3505,Fre 3684 Statistique Theorique Et Appliquee
+936,Institut Henri Poincare,3601,Administration De L'Institut Henri Poincare
+936,Institut Henri Poincare,3602,Ums 839 Institut Henri Poincare
+937,Station Biologique De Roscoff,3701,Direction De La Station Biologique De Roscoff / Fr 2424
+937,Station Biologique De Roscoff,3702,Umr 7144 Adaptation Et Diversite En Milieu Marin
+937,Station Biologique De Roscoff,3703,Hebergement Et Restauration
+937,Station Biologique De Roscoff,3706,Umr 8227 Laboratory Of Integrative Of Marine Models
+937,Station Biologique De Roscoff,3709,Usr 3151 Phophorilation Des Proteines Et Des Pathologies Humaines
+937,Station Biologique De Roscoff,3710,Umi 3614 Evolutionary Biology And Ecology Of Algae
+938,Observatoire Oceanologique De Banyuls,3801,Direction De L'Observatoire Oceanologique De Banyuls / Ums 2348
+938,Observatoire Oceanologique De Banyuls,3805,Accueil
+938,Observatoire Oceanologique De Banyuls,3807,Umr 7621 Oceanographie Microbienne
+938,Observatoire Oceanologique De Banyuls,3808,Umr 7232 Biologie Integrative Des Organismes Marins
+938,Observatoire Oceanologique De Banyuls,3809,Umr 8222 Ecogeochimie Des Environnements Bentiques
+938,Observatoire Oceanologique De Banyuls,3812,Usr 3579 Biodiversite Et Biotechnologies Microbiennes
+939,Observatoire Oceanologique De Villefranche,3901,Direction De L'Observatoire Oceanologique De Villefranche / Ums 829
+939,Observatoire Oceanologique De Villefranche,3903,Um 68 Geoazur
+939,Observatoire Oceanologique De Villefranche,3905,Umr 7093 Oceanographie De Villefranche
+939,Observatoire Oceanologique De Villefranche,3906,Umr 7009 Biologie Du Developpement De Villefranche / Mer
+940,Observatoire Des Sciences De L'Univers Ecce Terra,4001,Administration De L'Observatoire Des Sciences De L'Univers
+940,Observatoire Des Sciences De L'Univers Ecce Terra,4002,Ums 3455 Observatoire Des Sciences De L'Univers Ecce Terra Paris Vi
+904,Bibliotheque Universitaire Pierre Et Marie Curie,5101,Administration De La Bibliotheque Universitaire Pierre Et Marie Curie
+904,Bibliotheque Universitaire Pierre Et Marie Curie,5106,Mathematiques Informatique Recherche
+904,Bibliotheque Universitaire Pierre Et Marie Curie,5107,Sciences De La Terre Recherche
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67010,Direction Et Administration De L'Ufr 967
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67140,Umrs 959 Immunologie Immunopathologie Immunotherapeutique
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67260,Umrs 1127 - Umr 7225 - Um 75 Unite Mixte De Recherche Institut Du Cerveau Et De La Moelle
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67330,Umrs 1158 Neurophysiologie Respiratoire Experimentale Et Clinique
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67340,Umrs 1155 Des Maladies Renales Rares Aux Maladies Frequentes - Remodelage Et Reparation
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67510,Umrs 1120 Genetique Et Physiologie De L'Audition
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67520,Umrs 933 Physiopathologie Des Maladies Genetiques D'Expression Pediatrique
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67560,Umrs 968 - Umr 7210 - Um 80 Centre De Recherche Institut De La Vision
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67570,Enseignement
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67730,Umrs 938 Centre De Recherche Saint Antoine
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67770,Umrs 974 Centre De Recherche En Myologie
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67790,Umrs 1166 Maladies Cardio-Vasculaires Du Metabolisme Et De La Nutrition
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67800,Umrs 1136 Institut Pierre Louis D' Epidemiologie Et Sante Publique
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67810,Umrs 1159 Rehabilitation Chirurgicale Mini-Invasive Robotisee De L'Audition
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67830,Umrs 1135 Centre D'Immunologie Et Des Maladies Infectieuses
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67840,Ums 028 Phenotypage Du Petit Animal
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67850,Ums 029 Omique
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67860,Ums 030 Imagerie Et Cytometrie
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67870,Grc'S
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67998,Hors Labos 967
+967,Ufr Faculte De Medecine Pierre Et Marie Curie,67999,Structures Reconnues Exterieures 967
+968,Ufr Stomatologie Et Chirurgie Maxillo-Faciale,68120,Stomatologie Et Chirurgie Maxillo-Faciale
+SG,Directions Et Services Centraux,0121F,Service De Medecine De Prevention
+SG,Directions Et Services Centraux,0125E,Service Social Du Personnel
+MIT,Service General Tice,0310A,L'Usage Des Technologies Educatives En Sciences
+MIT,Service General Tice,0310C,Centre De Production Multimedia
+MIT,Service General Tice,0310N,Administration Du Sgtice
+3,Service General De Formation Initiale,03LA,Departement Du Cycle D'Integration (L1 Et P1)
+3,Service General De Formation Initiale,03LK,Departement Licence Sciences Exactes Et Naturelles
+3,Service General De Formation Initiale,03MA,Departement Master Management Des Connaissances Et Innovation
+3,Service General De Formation Initiale,03MB,Departement Master Des Metiers De L'Enseignement De L'Education Et De La Formation
+906,Formation Continue,06A0,Administration De La Formation Continue
+919,Ufr Faculte Ingenierie,19LG,Licences Mecanique Et Electronique - Energie Electrique - Automatique
+929,Ufr Faculte De Mathematiques,21LB,Licence De Mathematique
+929,Ufr Faculte De Mathematiques,21MA,Master De Mathematiques Et Applications
+919,Ufr Faculte Ingenierie,22LD,Licence D'Informatique
+919,Ufr Faculte Ingenierie,22MB,Master D'Informatique
+919,Ufr Faculte Ingenierie,24MC,Master De Sciences De L'Ingenieur
+925,Ufr Faculte De Physique,25LG,Licence De Physique
+925,Ufr Faculte De Physique,25MD,Master De Physique Et Applications
+926,Ufr Faculte De Chimie,26LH,Licence De Chimie
+926,Ufr Faculte De Chimie,26ME,Master De Chimie
+927,Ufr Faculte Sciences De La Vie,27LI,Licence Sciences De La Vie
+927,Ufr Faculte Sciences De La Vie,27MF,Master De Biologie Moleculaire Et Cellulaire
+927,Ufr Faculte Sciences De La Vie,27MG,Master De Biologie Integrative Et Physiologie
+918,Ufr Faculte Terre - Environnement - Biodiversite,28LJ,Licence De Sciences De La Terre
+918,Ufr Faculte Terre - Environnement - Biodiversite,28MI,Master De Sciences De L'Univers - Environnement - Ecologie
+927,Ufr Faculte Sciences De La Vie,64MH,Master De Sante Publique Et Sciences Sociales
+8810,College De France,8810C,Umr 9950 Physiologie De La Perception Et De L'Action
+8812,Societes,8812A,Lutech
+8820,E.S.P.C.I.,8820E,Umr 7084 Synthese Organique Et Modelisation Par Apprentissage
+8830,E.N.S.,8830A,U 497 Biologie Cellulaire Oligo-Synapse Normle Et Pathogene
+8830,E.N.S.,8830C,Umr 8542 Developpement Et Evolution Du Systeme Nerveux
+8830,E.N.S.,8830D,Umr 8544 Neurobiologie Cellulaire Et Moleculaire
+8840,Campus D'Orsay,8840A,Upesa 8079 Ecologie Systematique Et Evolution
+8840,Campus D'Orsay,8840B,Umr 8621 Institut De Genetique Et Microbiologie
+8850,Institut Pasteur,8850C,Bacteriologie Moleculaire Et Medicale
+8850,Institut Pasteur,8850L,Immunologie Virale
+8850,Institut Pasteur,8850P,Ura 2185 Biologie Structurale Et Agents Infectieux
+PATRI,Patrimoine,CHS,Comité Hygiène Et Sécurité
+DIRCP,Direction,COM,Communication
+MODER,Modernisation,CRI,Service Réseau
+DDE,Direction Des Études,DDEFE,Formation Expérimentale
+DDE,Direction Des Études,DDELV,Langues Vivantes
+DDE,Direction Des Études,DDEMA,Management
+SG,Directions Et Services Centraux,DIM,Direction Des Affaires Generales
+DDE,Direction Des Études,DIRDE,Pilotage Direction Des Études
+DS,Direction Scientifique,DIRDS,Pilotage Direction Scientifique
+MODER,Modernisation,DIRMO,Pilotage Direction De La Modernisation
+DIRCP,Direction,DIRPL,Direction Pilotage
+DS,Direction Scientifique,DSBIB,Bibliothèque
+DS,Direction Scientifique,DSME,Microscopies Électroniques
+DS,Direction Scientifique,DSMEC,Mécanique
+DS,Direction Scientifique,DSRMN,Résonance Magnétique Nucléaire
+DS,Direction Scientifique,DSSM,Spectrométrie De Masse
+DS,Direction Scientifique,DSSV,Soufflage De Verre
+FRIED,Département Friedel,FRI1,Dérivés Du Bore En Catalyse - Réactions À Économie D¿Atomes : Sylvain Darses
+FRIED,Département Friedel,FRI10,Catalyse Et Développement Durable : Christophe Thomas
+FRIED,Département Friedel,FRI11,Catalyse Et Analyse Électrochimiques Pour La Biologie : Fethi Bedioui
+FRIED,Département Friedel,FRI12,Synthèse - Imagerie Et Criblage : Jean Herscovici
+FRIED,Département Friedel,FRI2,Chimie De L¿Or - Catalyse Et Architectures Complexantes : Véronique Michelet
+FRIED,Département Friedel,FRI3,Catalyse - Organocatalyse - Synthèse Totale : Virginie Vidal
+FRIED,Département Friedel,FRI4,Synthèse Totale De Produits Naturels : Phannarath Phansavath
+FRIED,Département Friedel,FRI5,Chimiothèque Et Ciblothèque : Claude Jolivalt
+FRIED,Département Friedel,FRI6,Métalloenzymess Et Bioprocédés : Michèle Salmain
+FRIED,Département Friedel,FRI7,Biochimie Des Microorganismes : Olivier Ploux
+FRIED,Département Friedel,FRI8,Bioanalyse Par Organométallique : Anne Vessières
+FRIED,Département Friedel,FRI9,Chimie Médicinale Et Organométallique : Gérard Jaouen
+DIRCP,Direction,INDUS,Relations Industrielles
+MOISS,Département Moissan,MOI1,Electrochimie Des Surfaces Et Mécanismes De Corrosion (P. Marcus)
+MOISS,Département Moissan,MOI10,Simulation Moléculaire (A. Fuchs)
+MOISS,Département Moissan,MOI11,Dépollution Et Vieillissement Des Matériaux (S. Cavadias)
+MOISS,Département Moissan,MOI12,Réacteurs Plasma Pour L¿Élaboration De Matériaux Ultrapurs (D. Morvan)
+MOISS,Département Moissan,MOI13,Traitement De Surface Et Dépôts De Couches Minces Par Plasma (F. Arefi)
+MOISS,Département Moissan,MOI14,Procédés Plasmas Appliqués Aux Microsystèmes (M. Tatoulian)
+MOISS,Département Moissan,MOI15,Sciences Analytiques - Bioanalytiques Diagnostic Et Miniaturisation (P. Gareil)
+MOISS,Département Moissan,MOI17,Pôle Nucléaire (G. Cote)
+MOISS,Département Moissan,MOI2,Métallurgie Structurale (P. Vermaut)
+MOISS,Département Moissan,MOI3,Matériaux Pour L¿Optique Et Ses Applications (Gérard Aka)
+MOISS,Département Moissan,MOI4,Matériaux Complexes Et Défauts Structuraux (Philippe Barboux)
+MOISS,Département Moissan,MOI5,Electrochimie Des Hautes Températures - Du Sel Fondu À L¿Électrolyte Solide (M. Cassir)
+MOISS,Département Moissan,MOI6,Films Nanostructurés Et Électrolyse (T. Pauporté)
+MOISS,Département Moissan,MOI7,Interfaces - Séparation Par Extraction (G. Cote)
+MOISS,Département Moissan,MOI8,Modélisation Des Systèmes Complexes (C. Adamo)
+MOISS,Département Moissan,MOI9,Théorie Des Interfaces (D. Di Caprio)
+DIRCP,Direction,RI,Relations Internationales
+SGCP,Secrétariat Général,SGRH,Service Ressources Humaines
+SGCP,Secrétariat Général,SGSAM,Service Des Achats - Magasin
+SGCP,Secrétariat Général,SGSC,Service Commun
+SGCP,Secrétariat Général,SGSF,Service Financier
+SGCP,Secrétariat Général,SGSG,Services Généraux
+SGCP,Secrétariat Général,SGSI,Service Intérieur
+PATRI,Patrimoine,ST,Services Techniques
+MODER,Modernisation,TICE,Service Tice
+,,185343,INSERM – Cardiovascular genomics
+,,EMSE,Ecole des Mines de Saint Etienne
+,,EPHE,Ecole Pratique des Hautes Etudes

@@ -1,5 +1,6 @@
-var dataPath = "/dashboardHPCAVE/logs/";
-var imgsPath = "/dashboardHPCAVE/images/";
+var dataPath = "/dashboardHPCAVE/data/";//Chemin pour les listes d'affectations et correspondances d'utilisateurs
+var logsPath = "/dashboardHPCAVE/logs/";//Chemin pour les fichiers générés par la crontab
+var imgsPath = "/dashboardHPCAVE/images/";//Chemin pour les images et ressources statiques
 
 //Transform a usage percentage in a color for the badges
 function percentToColor(percent){
@@ -83,3 +84,39 @@ jQuery.ajax({type:"GET", url: dataPath + "log.txt",       success: fillStatus});
 jQuery.ajax({type:"GET", url: dataPath + "lastMonth.csv", success: fillLastMonth});
 jQuery.ajax({type:"GET", url: dataPath + "lastYear.csv",  success: fillLastYear});
 jQuery.ajax({type:"GET", url: dataPath + "uptimes.csv",   success: fillInterruptions});
+
+
+
+function usagePer(){
+
+    //Read the laboratories list
+    d3.csv(dataPath + "affectations.csv", function(labs){
+	console.log("Successfully read the affectations file");
+
+	//Read the user affectations: user/labo
+	d3.csv(dataPath + "users.csv", function(users){
+	    console.log("Successfully read the users file");
+
+	    console.log(labs, users);
+	    
+	    //Read the lastYear usage file, in a csv format
+	    d3.csv(logsPath + "lastYear.csv", function(data){
+		console.log("Successfully read the usage file for the year");
+		console.log(data);
+	    });
+
+	    //Read the lastMonth usage file, in a csv format
+	    d3.csv(logsPath + "lastMonth.csv", function(data){
+		console.log("Successfully read the usage file for the month");
+		console.log(data);
+	    });
+	});
+    });
+}
+
+jQuery.ajax({type:"GET", url: dataPath + "pings.csv",     success: fillPings});
+jQuery.ajax({type:"GET", url: dataPath + "log.txt",       success: fillStatus});
+jQuery.ajax({type:"GET", url: dataPath + "lastMonth.csv", success: fillLastMonth});
+jQuery.ajax({type:"GET", url: dataPath + "lastYear.csv",  success: fillLastYear});
+
+usagePer();

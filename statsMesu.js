@@ -79,11 +79,11 @@ function fillInterruptions(text){
   jQuery("#interruptions").html(html);
 }
 
-jQuery.ajax({type:"GET", url: dataPath + "pings.csv",     success: fillPings});
-jQuery.ajax({type:"GET", url: dataPath + "log.txt",       success: fillStatus});
-jQuery.ajax({type:"GET", url: dataPath + "lastMonth.csv", success: fillLastMonth});
-jQuery.ajax({type:"GET", url: dataPath + "lastYear.csv",  success: fillLastYear});
-jQuery.ajax({type:"GET", url: dataPath + "uptimes.csv",   success: fillInterruptions});
+jQuery.ajax({type:"GET", url: logsPath + "pings.csv",     success: fillPings});
+jQuery.ajax({type:"GET", url: logsPath + "log.txt",       success: fillStatus});
+jQuery.ajax({type:"GET", url: logsPath + "lastMonth.csv", success: fillLastMonth});
+jQuery.ajax({type:"GET", url: logsPath + "lastYear.csv",  success: fillLastYear});
+jQuery.ajax({type:"GET", url: logsPath + "uptimes.csv",   success: fillInterruptions});
 
 
 
@@ -94,29 +94,32 @@ function usagePer(){
 	console.log("Successfully read the affectations file");
 
 	//Read the user affectations: user/labo
-	d3.csv(dataPath + "users.csv", function(users){
+	d3.text(dataPath + "users.csv", function(users){
+	    users = d3.csvParseRows(users);
 	    console.log("Successfully read the users file");
 
 	    console.log(labs, users);
 	    
 	    //Read the lastYear usage file, in a csv format
-	    d3.csv(logsPath + "lastYear.csv", function(data){
+	    d3.text(logsPath + "lastYear.csv", function(data){
+		data = d3.csvParseRows(data);
 		console.log("Successfully read the usage file for the year");
 		console.log(data);
+		tmp = [];
+		tot = 0;
+		for(var i = 0 ; i < data.length ; i++){
+		    tmp.push(parseInt(data[i][1]));
+		    tot+=parseInt(data[i][1]);
+		}
+		console.log(tmp, tot);
 	    });
 
 	    //Read the lastMonth usage file, in a csv format
 	    d3.csv(logsPath + "lastMonth.csv", function(data){
 		console.log("Successfully read the usage file for the month");
-		console.log(data);
+		//console.log(data);
 	    });
 	});
     });
 }
-
-jQuery.ajax({type:"GET", url: dataPath + "pings.csv",     success: fillPings});
-jQuery.ajax({type:"GET", url: dataPath + "log.txt",       success: fillStatus});
-jQuery.ajax({type:"GET", url: dataPath + "lastMonth.csv", success: fillLastMonth});
-jQuery.ajax({type:"GET", url: dataPath + "lastYear.csv",  success: fillLastYear});
-
 usagePer();
